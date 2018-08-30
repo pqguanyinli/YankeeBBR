@@ -104,7 +104,7 @@ BBR加速 有两套代码，选其一
 
 ## Part2 搭建brook服务端
 
-如果这一步之前有选Y重启的话 需要 先输入 sudo -i
+如果这一步之前有选Y重启的话 需要 先输入 ``` sudo -i ```
 
 5：``` wget -N --no-check-certificate https://softs.fun/Bash/brook.sh && chmod +x brook.sh && bash brook.sh ```
 
@@ -131,9 +131,9 @@ Brook（新版协议，即 [servers]）
 Brook Stream（旧版协议，即 [streamservers]，不推荐，除非使用新版协议速度慢）
 
 (默认: 1. Brook（新版协议）):1
-========================
-协议 : servers
-========================
+
+协议 : servers 
+
 [信息] Brook 停止成功 !
 
 [信息] Brook 启动中...
