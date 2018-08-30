@@ -34,7 +34,7 @@ sysctl net.ipv4.tcp_available_congestion_control
 也可以使用debian9(推荐）
 使用debian9 可以只用从第5步开始（当然sudo -i 这一步还是要的）只需2步就可以搭建好。不用装BBR加速器 速度也非常的快 直接破百兆！
 
-1：sudo -i
+1：```bash sudo -i ```
 
 (最前面显示root@xxxx)
 
@@ -72,9 +72,11 @@ sysctl net.ipv4.tcp_available_congestion_control
 
 ## BIGDONGDONGB ROOK 的搭建方法：（参考）
 
+原创技术小哥的网站更多详细设置参见原贴：https://doub.io/brook-jc3/
+
 此方式优点： 属于小众代理，被XX的概率较低，速度和SSR 不相伯仲
 
-缺点：客户端配置不如SSR客户端丰富 比如规则之类的 设置相对麻烦或者要下对应客户端而且并不是全平台。还有就是更正一下视频里说的不支持路由器目前已知支持 软路由系统openwrt
+缺点：客户端配置不如SSR客户端丰富 比如规则之类的 设置相对麻烦或者要下对应客户端而且并不是全平台。还有就是更正一下视频里说的不支持路由器目前已知支持 软路由系统openwrt,但梅林貌似还没有。如果有我会在这里通知大家。
 
 以下是以谷歌云为例子！！
 
