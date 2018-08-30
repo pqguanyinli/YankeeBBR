@@ -68,3 +68,76 @@ sysctl net.ipv4.tcp_available_congestion_control
 点击添加新规则，然后按照一下这个设置好。这样 SSR 设置任何端口都可以使用。并且后续不需要再来防火墙规则做设置了。
 
 ![Deploy](https://user-images.githubusercontent.com/34980980/38017949-234a1e70-32a6-11e8-823f-9242466d87b7.png)
+
+
+## BIGDONGDONGB ROOK 的搭建方法：（参考）
+
+此方式优点： 属于小众代理，被XX的概率较低，速度和SSR 不相伯仲
+
+缺点：客户端配置不如SSR客户端丰富 比如规则之类的 设置相对麻烦或者要下对应客户端而且并不是全平台。还有就是更正一下视频里说的不支持路由器目前已知支持 软路由系统openwrt
+
+## 以下是以谷歌云为例子！！
+
+Part1首先搭建BBR加速
+
+1：sudo -i
+
+(最前面显示root@xxxx)
+
+BBR加速 有两套代码，选其一
+
+2（第一套）：wget -N --no-check-certificate https://raw.githubusercontent.com/FunctionClub/YankeeBBR/master/bbr.sh && bash bbr.sh install
+
+蓝底窗口按TAB键选NO
+
+选择重启 Y
+
+这里会断开连接，大家可以关掉窗口再重新打开。
+
+3：sudo -i
+
+(最前面显示root@xxxx)
+
+4：bash bbr.sh start
+
+——————————————————————————————————————————————
+Part2 搭建brook服务端
+
+如果这一步之前有选Y重启的话 需要 先输入 sudo -i
+
+5：wget -N --no-check-certificate https://softs.fun/Bash/brook.sh && chmod +x brook.sh && bash brook.sh
+如果失效用这个
+wget -N --no-check-certificate https://raw.githubusercontent.com/ToyoDAdoubi/doubi/master/brook.sh && chmod +x brook.sh && bash brook.sh
+6：运行脚本后会出现脚本操作菜单，选择并输入 1 就会开始安装
+
+7：输入端口 [1-65535]
+(默认: 2333):
+大家可以自行输入自己的端口（防火墙开通的）
+
+8：请输入 Brook 密码
+(默认: doub.io):
+
+9：选择 Brook
+
+Brook（新版协议，即 [servers]）
+Brook Stream（旧版协议，即 [streamservers]，不推荐，除非使用新版协议速度慢）
+(默认: 1. Brook（新版协议）):1
+========================
+协议 : servers
+========================
+[信息] Brook 停止成功 !
+[信息] Brook 启动中...
+[信息] Brook 启动成功 !
+——————————————————————————————————————————————
+
+9： Brook 用户配置复制或截图
+2018-04-01 23 52 10
+
+——————————————————————————————————————————————
+10：如何在手机、电脑（PC/MAC)上使用请参照视频
+——————————————————————————————————————————————
+谷歌云防火墙规则 （说白了就是创建完实例以后需要再去防火墙那个地方打开相应的端口才可以使用实例）
+
+谷歌云防火墙规则添加 （位置在谷歌云 VPC网络-防火墙）
+点击添加新规则，然后按照一下这个设置好。这样 SSR 设置任何端口都可以使用。并且后续不需要再来防火墙规则做设置了。缺点是 所有端口开放。当然也会有一些危险。
+38017949-234a1e70-32a6-11e8-823f-9242466d87b7
