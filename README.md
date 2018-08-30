@@ -82,13 +82,13 @@ sysctl net.ipv4.tcp_available_congestion_control
 
 ## Part1首先搭建BBR加速
 
-1：```bash sudo -i ```
+1：``` sudo -i ```
 
 (最前面显示root@xxxx)
 
 BBR加速 有两套代码，选其一
 
-2（第一套）：```bash wget -N --no-check-certificate https://raw.githubusercontent.com/FunctionClub/YankeeBBR/master/bbr.sh && bash bbr.sh install  ```
+2（第一套）：``` wget -N --no-check-certificate https://raw.githubusercontent.com/FunctionClub/YankeeBBR/master/bbr.sh && bash bbr.sh install  ```
 
 蓝底窗口按TAB键选NO
 
@@ -96,21 +96,21 @@ BBR加速 有两套代码，选其一
 
 这里会断开连接，大家可以关掉窗口再重新打开。
 
-3：```bash sudo -i ```
+3：```sudo -i ```
 
 (最前面显示root@xxxx)
 
-4：```bash bash bbr.sh start  ```
+4：``` bash bbr.sh start  ```
 
 ## Part2 搭建brook服务端
 
 如果这一步之前有选Y重启的话 需要 先输入 sudo -i
 
-5：```bash wget -N --no-check-certificate https://softs.fun/Bash/brook.sh && chmod +x brook.sh && bash brook.sh ```
+5：``` wget -N --no-check-certificate https://softs.fun/Bash/brook.sh && chmod +x brook.sh && bash brook.sh ```
 
 如果失效用这个
 
-```bash wget -N --no-check-certificate https://raw.githubusercontent.com/ToyoDAdoubi/doubi/master/brook.sh && chmod +x brook.sh && bash brook.sh ```
+``` wget -N --no-check-certificate https://raw.githubusercontent.com/ToyoDAdoubi/doubi/master/brook.sh && chmod +x brook.sh && bash brook.sh ```
 
 6：运行脚本后会出现脚本操作菜单，选择并输入 1 就会开始安装
 
