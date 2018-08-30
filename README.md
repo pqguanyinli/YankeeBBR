@@ -70,7 +70,7 @@ sysctl net.ipv4.tcp_available_congestion_control
 ![Deploy](https://user-images.githubusercontent.com/34980980/38017949-234a1e70-32a6-11e8-823f-9242466d87b7.png)
 
 
-## BIGDONGDONGB ROOK 的搭建方法：（参考）
+## BIGDONGDONG BROOK 的搭建方法：（参考）
 
 原创技术小哥的网站更多详细设置参见原贴：https://doub.io/brook-jc3/
 
