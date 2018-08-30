@@ -38,9 +38,8 @@ sysctl net.ipv4.tcp_available_congestion_control
 
 (最前面显示root@xxxx)
 
-2：```bash
-   wget -N --no-check-certificate https://raw.githubusercontent.com/FunctionClub/YankeeBBR/master/bbr.sh && bash bbr.sh install ```
-
+2：``` wget -N --no-check-certificate https://raw.githubusercontent.com/FunctionClub/YankeeBBR/master/bbr.sh && bash bbr.sh install  ```
+ 
 蓝底窗口按TAB键选NO
 
 选择重启 Y
