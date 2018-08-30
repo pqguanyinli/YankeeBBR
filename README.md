@@ -141,7 +141,7 @@ Brook Stream（旧版协议，即 [streamservers]，不推荐，除非使用新�
 [信息] Brook 启动成功 !
 
 9： Brook 用户配置复制或截图
-![Deploy](https://user-images.githubusercontent.com/34980980/38174986-2cc4056e-3608-11e8-9e58-f15839a9dc6d.jpg)
+![image](https://user-images.githubusercontent.com/34980980/38174986-2cc4056e-3608-11e8-9e58-f15839a9dc6d.jpg)
 
 
 10：如何在手机、电脑（PC/MAC)上使用请参照视频
