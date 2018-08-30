@@ -34,11 +34,11 @@ sysctl net.ipv4.tcp_available_congestion_control
 也可以使用debian9(推荐）
 使用debian9 可以只用从第5步开始（当然sudo -i 这一步还是要的）只需2步就可以搭建好。不用装BBR加速器 速度也非常的快 直接破百兆！
 
-1：```bash sudo -i ```
+1：``` sudo -i ```
 
 (最前面显示root@xxxx)
 
-2：```bash wget -N --no-check-certificate https://raw.githubusercontent.com/FunctionClub/YankeeBBR/master/bbr.sh && bash bbr.sh install  ```
+2：``` wget -N --no-check-certificate https://raw.githubusercontent.com/FunctionClub/YankeeBBR/master/bbr.sh && bash bbr.sh install  ```
 
 蓝底窗口按TAB键选NO
 
@@ -46,15 +46,15 @@ sysctl net.ipv4.tcp_available_congestion_control
 
 这里会断开连接，大家可以关掉窗口再重新打开或几秒钟后在界面随便按几个字母 便会提示重新连接。
 
-3：```bash sudo -i ```
+3：``` sudo -i ```
 
 (最前面显示root@xxxx)
 
-4：```bash bash bbr.sh start ```
+4：``` bash bbr.sh start ```
 
-5：```bash wget --no-check-certificate https://raw.githubusercontent.com/teddysun/shadowsocks_install/master/shadowsocksR.sh && chmod +x shadowsocksR.sh  ```
+5：``` wget --no-check-certificate https://raw.githubusercontent.com/teddysun/shadowsocks_install/master/shadowsocksR.sh && chmod +x shadowsocksR.sh  ```
 
-6：```bash ./shadowsocksR.sh  ```
+6：``` ./shadowsocksR.sh  ```
 
 输入shadowsocks 密码
 
