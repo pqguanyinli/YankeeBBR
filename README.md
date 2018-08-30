@@ -146,6 +146,7 @@ Brook Stream（旧版协议，即 [streamservers]，不推荐，除非使用新�
 
 10：如何在手机、电脑（PC/MAC)上使用请参照视频
 
+brook 客户端下载地址:https://github.com/txthinking/brook
 
 谷歌云防火墙规则 （说白了就是创建完实例以后需要再去防火墙那个地方打开相应的端口才可以使用实例）
 
