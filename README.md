@@ -141,7 +141,7 @@ Brook Stream（旧版协议，即 [streamservers]，不推荐，除非使用新�
 [信息] Brook 启动成功 !
 
 9： Brook 用户配置复制或截图
-![image](https://github.com/pqguanyinli/YankeeBBR/blob/master/images/2.png)
+![image](https://github.com/pqguanyinli/YankeeBBR/blob/master/images/2.jpg)
 
 
 10：如何在手机、电脑（PC/MAC)上使用请参照视频
