@@ -67,7 +67,7 @@ sysctl net.ipv4.tcp_available_congestion_control
 谷歌云防火墙规则添加 （位置在谷歌云 VPC网络-防火墙）
 点击添加新规则，然后按照一下这个设置好。这样 SSR 设置任何端口都可以使用。并且后续不需要再来防火墙规则做设置了。
 
-![Deploy](https://user-images.githubusercontent.com/34980980/38017949-234a1e70-32a6-11e8-823f-9242466d87b7.png)
+![image](https://github.com/pqguanyinli/YankeeBBR/blob/master/images/1.png)
 
 
 ## BIGDONGDONG BROOK 的搭建方法：（参考）
@@ -141,7 +141,7 @@ Brook Stream（旧版协议，即 [streamservers]，不推荐，除非使用新�
 [信息] Brook 启动成功 !
 
 9： Brook 用户配置复制或截图
-![image](https://user-images.githubusercontent.com/34980980/38174986-2cc4056e-3608-11e8-9e58-f15839a9dc6d.jpg)
+![image](https://github.com/pqguanyinli/YankeeBBR/blob/master/images/2.png)
 
 
 10：如何在手机、电脑（PC/MAC)上使用请参照视频
@@ -154,4 +154,4 @@ brook 客户端下载地址:https://github.com/txthinking/brook/releases
 
 点击添加新规则，然后按照一下这个设置好。这样 SSR 设置任何端口都可以使用。并且后续不需要再来防火墙规则做设置了。缺点是 所有端口开放。当然也会有一些危险。
 
-![Deploy](https://user-images.githubusercontent.com/34980980/38160189-089475e2-34ec-11e8-81ae-96f6af6ee727.png)
+![image](https://github.com/pqguanyinli/YankeeBBR/blob/master/images/3.png)
